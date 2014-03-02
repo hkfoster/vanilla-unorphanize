@@ -6,7 +6,7 @@ Based on https://github.com/simeydotme/jQuery-Unorphanize, this plugin weighs in
 
 ### How it Works
 
-Vanilla Unorphanize will take the supplied selector(s) `new unorphanize( 'selector, selector' );` and replace the last space with a `&nbsp;`, preventing an [orphan](http://en.wikipedia.org/wiki/Widows_and_orphans) from occurring. All without disturbing any inner HTML elements.
+Vanilla Unorphanize will take the supplied selector(s) `new unorphanize( 'selector, selector' );` and replace the last space with a `&nbsp;` preventing an [orphan](http://en.wikipedia.org/wiki/Widows_and_orphans) from occurring. All without disturbing any inner HTML elements.
 
 #### Basic Usage
 
