@@ -81,6 +81,3 @@
   window.unorphanize = unorphanize;
 
 })( window, document );
-
-// Instantiate Unorphanize with two companions
-new unorphanize( 'p:not(.excluded)', { companions: 2 } );
