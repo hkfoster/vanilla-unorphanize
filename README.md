@@ -1,6 +1,6 @@
-Unorphanize: Vanilla Edition
-----------------------------
-**Prevent orphans with zero dependencies**
+## Unorphanize: Vanilla Edition
+
+#### Prevent orphans with zero dependencies
 
 Based on https://github.com/simeydotme/jQuery-Unorphanize, this plugin weighs in at `~ 840 bytes minified` and works without the need for a JavaScript library.
 
@@ -8,12 +8,14 @@ Based on https://github.com/simeydotme/jQuery-Unorphanize, this plugin weighs in
 
 **Vanilla Unorphanize** will take the supplied selector(s) `( 'selector, selector, selector' )` and **replace the last space** with a `&nbsp;`, preventing an [orphan](http://en.wikipedia.org/wiki/Widows_and_orphans) from occurring. All without disturbing any inner HTML elements.
 
-**Basic Usage**
+#### Basic Usage
+
 ```js
 // Prevent orphans in all paragraphs
 new unorphanize( 'p' );
 ```
-**Custom Usage**
+#### Custom Usage
+
 ```js
 // Prevent orphans in all paragraphs w/ 2 companions
 new unorphanize( 'p', { companions: 2 } );
