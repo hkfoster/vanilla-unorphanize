@@ -1,4 +1,4 @@
-## Unorphanize: Vanilla Flavored
+## Vanilla Flavored Unorphanize
 
 #### Prevent orphans with zero dependencies
 
